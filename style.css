@@ -1,53 +1,73 @@
-*{
+/*
+    Используй аккуратное форматирование для стилей и разметки:
+    без аккуратного форматирования, при ревью код сразу отправят на доработку.
+    Хорошая читабельность кода реально увеличивает продуктивность и
+    простоту работы с кодом.
+
+    - После объявляения селектора, перед открывающей скобкой, ставится пробел.
+    - После блока ставится два переноса строки, чтобы была одна пустая строка между блоками правил.
+
+*/
+* {
     margin: 0;
 }
-article{
+
+article {
     width: 50%;
-    margin: 3em auto; 
+    margin: 3em auto;
     background-color: #eeeeee;
     border-radius: 5px;
     padding:1em 3em 1em 3em;
 
 }
-h1,h2{
+
+h1, h2 {
     text-align: center;
     font-weight: bold;
 }
-h1{
+
+h1 {
     font-size: 63px;
 }
-h2{
+
+h2 {
     font-size: 30px;
     margin: 10px 0;
 }
-h3{
+
+h3 {
     font-size: 24px;
     font-family: Arial;
     font-weight: normal;
 }
-img{
+
+img {
     width: 100%;
     height: auto;
     margin: 0 auto;
 }
-.image_and_caption{
+
+.image_and_caption {
     background-color: #fff;
     border-radius: 5px;
     padding:5px;
     margin-top: 1em;
-    margin-bottom: 1em; 
+    margin-bottom: 1em;
 }
-.image_and_caption .img_caption{
+
+.image_and_caption .img_caption {
     font-size: 21px;
     text-align: center;
     margin-top: 5px;
     margin-bottom: 10px;
 }
-.text{
+
+.text {
     width: 60%;
     margin: 0 auto;
 }
-li{
+
+li {
     font-size: 16px;
     line-height: 1.5em;
 }
