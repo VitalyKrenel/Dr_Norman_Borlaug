@@ -32,8 +32,20 @@
             первого, либо последнего элемента).
          -->
         <figure class="image_and_caption">
-            <img src="res/img/image.jpg" alt="This is image :)">
-            <figcaption class="img_caption">
+            <!--
+                Содержимое alt атрибута должно отражать смысл представленного на изображении.
+                Это полезно с учетом доступности интерфейса (accessibility), поскольку людям,
+                пользующимся скринридером становится понятно, что содержимое изображения не
+                является критическим для понимания остального контента.
+                Также важно для SEO (но SEO специалист сам должен предоставить текст, который
+                наиболее хорошо подходит в целях повышения ранга в выдаче поисковиков)
+             -->
+            <img src="res/img/image.jpg" alt="Photo of Dr. Borlaug in Mexico" >
+            <!--
+                Альтернативно можно:
+                <img alt="Dr. Borlaug" aria-describedby="borlaug-mexico-caption">
+            -->
+            <figcaption class="img_caption" id="borlaug-mexico-caption">
                 Dr. Norman Borlaug, third from left, trains biologists in Mexico on how to increase
                 wheat yields - part of his life-long war on hunger.
             </figcaption>
